@@ -3,16 +3,61 @@
 
 </head>
 <body>
-    <h1>Library Membersship</h1>
     <form>
+    <fieldset>
+    <legend><h1>Library Membersship</h1></legend>
     <label for="NameTH">ชื่อ-นามสกุล:</label>
+    <input type="text" id="NameTH" name="NameTH"><br>
+
     <label for="NameEN">Name:</label>
+    <input type="text" id="NameEN" name="NameEN"><br>
+
     <label for="Gender">เพศ:</label>
+    <input type="radio" id="M" name="Gender" value="M">
+    <label for="Male">ชาย</label>
+    <input type="radio" id="F" name="Gender" value="F">
+    <label for="Male">หญิง</label><br>
+
     <label for="Code">รหัสนักศึกษา:</label>
+    <input type="number" id="NameTH" name="NameTH" placeholder="XXXXXXXXXX"><br>
+
     <label for="Faculty">คณะที่ศึกษา:</label>
+    <select>
+        <option value="01">01 นิติศาสตร์</option>
+        <option value="02">02 พาณิชยศาสตร์และการบัญชี</option>
+        <option value="03">03 รัฐศาสตร์</option>
+        <option value="04">04 เศรษฐศาสตร์</option>
+        <option value="05">05 สังคมสงเคราะห์ศาสตร์</option>
+        <option value="06">06 ศิลปศาสตร์</option>
+        <option value="07">07 วารสารศาสตร์และสื่อสารมวลชน</option>
+        <option value="08">08 สังคมวิทยาและมานุษยวิทยา</option>
+        <option value="09">09 วิทยาศาสตร์และเทคโนโลยี</option>
+        <option value="10">10 วิศวกรรมศาสตร์</option>
+        <option value="11">11 สถาปัตยกรรมศาสตร์และการผังเมือง</option>
+        <option value="12">12 สหเวชศาสตร์</option>
+        <option value="13">13 ทันตแพทยศาสตร์</option>
+        <option value="14">14 พยาบาลศาสตร์</option>
+        <option value="15">15 ศิลปกรรมศาสตร์</option>
+        <option value="16">16 แพทยศาสตร์</option>
+        <option value="17">17 สาธารณสุขศาสตร์</option>
+        <option value="18">18 เภสัชศาสตร์</option>
+        <option value="19">19 วิทยาการเรียนรู้และศึกษาศาสตร์</option>
+    </select><br>
+
     <label for="Email">ที่อยู่อีเมล (E-mail address):</label>
+    <input type="email" id="Email" name="Email" placeholder="dome.tu.ac.th"><br>
+
     <label for="BDate">วันเดือนปีเกิด:</label>
+    <input type="date" id="BDate" name="BDate"><br>
+
     <label for="Book">ประเภทของหนังสือที่สนใจ:</label>
-    <label for="News">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</label>
+    <input type="text" id="Book" name="Book" placeholder="หนังสือเรียนสำหรับCS100"><br>
+
+    <label for="News">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่:</label><br>
+    <input type="checkbox" id="Yes" name="News" value="Yes">
+    <label for="Yes">สนใจ</label><br>
+
+    <button>สมัครสมาชิก</button>
+</fieldset>
     </form>
 </body>
