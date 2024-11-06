@@ -1,0 +1,13 @@
+body
+{
+    background: -webkit-linear-gradient(right, rgb(226, 189, 165), rgb(182, 233, 255));
+    font-size: large;
+}
+fieldset
+{
+    border: solid;
+}
+.asterisk
+{
+    color: red;
+}
