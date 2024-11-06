@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <head>
-
+    <title>Library Membership Application Form</title>
 </head>
 <body>
     <form>
     <fieldset>
     <legend><h1>Library Membersship</h1></legend>
     <label for="NameTH">ชื่อ-นามสกุล*:</label>
-    <input type="text" id="NameTH" name="NameTH"><br>
+    <input type="text" id="NameTH" name="NameTH" required><br>
 
     <label for="NameEN">Name*:</label>
-    <input type="text" id="NameEN" name="NameEN"><br>
+    <input type="text" id="NameEN" name="NameEN" required><br>
 
     <label for="Gender">เพศ*:</label>
-    <input type="radio" id="M" name="Gender" value="M">
+    <input type="radio" id="M" name="Gender" value="M" required>
     <label for="Male">ชาย</label>
-    <input type="radio" id="F" name="Gender" value="F">
+    <input type="radio" id="F" name="Gender" value="F" required>
     <label for="Male">หญิง</label><br>
 
     <label for="Code">รหัสนักศึกษา*:</label>
-    <input type="number" id="NameTH" name="NameTH" placeholder="XXXXXXXXXX"><br>
+    <input type="number" id="NameTH" name="NameTH" placeholder="XXXXXXXXXX" required><br>
 
     <label for="Faculty">คณะที่ศึกษา*:</label>
     <select>
@@ -45,10 +45,10 @@
     </select><br>
 
     <label for="Email">ที่อยู่อีเมล (E-mail address)*:</label>
-    <input type="email" id="Email" name="Email" placeholder="dome.tu.ac.th"><br>
+    <input type="email" id="Email" name="Email" placeholder="dome.tu.ac.th" required><br>
 
     <label for="BDate">วันเดือนปีเกิด*:</label>
-    <input type="date" id="BDate" name="BDate"><br>
+    <input type="date" id="BDate" name="BDate" required><br>
 
     <label for="Book">ประเภทของหนังสือที่สนใจ:</label>
     <input type="text" id="Book" name="Book" placeholder="หนังสือเรียนสำหรับCS100"><br>
